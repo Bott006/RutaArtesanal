@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "RutaArtesanal.Application/1.0.0": {
+        "dependencies": {
+          "RutaArtesanal.Domain": "1.0.0",
+          "RutaArtesanal.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "RutaArtesanal.Application.dll": {}
+        }
+      },
+      "RutaArtesanal.Domain/1.0.0": {
+        "runtime": {
+          "RutaArtesanal.Domain.dll": {}
+        }
+      },
+      "RutaArtesanal.Infrastructure/1.0.0": {
+        "dependencies": {
+          "RutaArtesanal.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RutaArtesanal.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RutaArtesanal.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RutaArtesanal.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RutaArtesanal.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
